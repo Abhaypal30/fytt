@@ -1,0 +1,1293 @@
+.trials>.butn:hover {
+    color: #343434;
+}
+
+.hello {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #fff !important;
+}
+
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.img-left {
+
+    position: absolute;
+    left: 0px;
+    top: 200px;
+
+}
+
+.img-right {
+
+    position: absolute;
+    right: 0px;
+    top: 200px;
+
+}
+
+.mt-5 {
+    margin-top: 5%;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.download a {
+    margin-right: 40px;
+}
+
+text {
+    color: #2FC373;
+}
+
+
+
+.choose-us>div>h3 {
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.choose-us>.card-style2 {
+    background-color: transparent !important;
+}
+
+.choose-us>.card-style2>.card-body {
+    padding: 5px 5px 5px 5px;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.par-container {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+
+.bg-choose {
+    background: #1E1E1E !Important;
+}
+
+.rad-20 {
+    border-radius: 20px;
+}
+
+.mt-40 {
+    margin-top: 30px;
+}
+
+.choose-us {
+    padding: 15px;
+}
+
+.level {
+    list-style: none;
+    padding-left: 50px;
+    position: relative;
+}
+
+.level li {
+    position: relative;
+}
+
+.level li::before {
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 7px;
+    background-image: url(../assets/Line1.png);
+    left: -36px;
+    top: 9px;
+}
+
+.level li h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #F3F7F5;
+}
+
+.level li p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8C8C8C;
+}
+
+section {
+    padding: 40px 0;
+    overflow: hidden;
+    /* background: #fff; */
+    position: relative;
+}
+
+.no-bg {
+    background: transparent !important;
+}
+
+.team-media img {
+    width: 300px;
+    height: 358px;
+}
+
+.act h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.act p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.happy-clients {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 20px 10px;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+}
+
+.client img {
+    margin-right: 10px;
+
+}
+
+.client-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.client-info h3 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(47, 195, 115, 1);
+
+
+    /* Remove default margin */
+}
+
+.client-info p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(140, 140, 140, 1);
+    margin-bottom: 5px;
+
+}
+
+
+
+.image-row {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.client-info img {
+    width: 45.5px;
+    height: 35.5px;
+
+}
+
+.image-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-column img {
+    margin-bottom: 10px;
+}
+
+.client-info-img {
+    width: 45.5px;
+    height: 35.5px;
+    position: absolute;
+
+    left: -50px;
+    top: -30px;
+
+
+}
+
+
+.star-img {
+    width: 128px;
+    height: 18.89px;
+}
+
+
+.col-lg-5 span h2 {
+    margin-bottom: 150px;
+
+}
+
+
+.clients .par-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.section-title h2 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: rgba(243, 247, 245, 1);
+    margin-bottom: 20px;
+}
+
+/*  For Media screen */
+@media (max-width: 768px) {
+    .img-left {
+        display: none;
+    }
+
+    .img-right {
+
+        display: none;
+    }
+
+    .download {
+        display: flex;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .hello {
+        font-size: 20px;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: #fff !important;
+    }
+
+
+    .banner-style01 .banner-section p {
+        font-weight: 300;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 1) !Important;
+        line-height: 26px;
+        text-align: crn;
+    }
+
+    .section-title h2 {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 44px;
+        text-align: center;
+    }
+
+    .clients .par-container {
+        padding: 0;
+    }
+
+    .section-title span {
+        display: block;
+        text-align: center;
+    }
+
+
+    text {
+        color: #FFF;
+    }
+
+    .about-style01 text {
+        color: #2FC373;
+    }
+
+    .card-style1 text {
+        font-size: 26px;
+    }
+
+    .choose-us>div>h3 {
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 600;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        color: rgba(140, 140, 140, 1);
+
+    }
+
+    .level li h4 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        color: rgba(243, 247, 245, 1);
+    }
+
+    .level li p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: rgba(140, 140, 140, 1);
+        text-align: start;
+
+    }
+
+    .act p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        margin-bottom: 0;
+    }
+
+    .trainer {
+        position: relative;
+        margin-top: -81px;
+        z-index: 999999999999;
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .trainer h3 {
+        color: #ffffff;
+    }
+
+    .blankDive {
+        width: 10px;
+        height: 28px;
+        display: block;
+    }
+
+    .footer-h3 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+        color: #EDF5F1 !important;
+        margin-bottom: 20px;
+
+    }
+
+    .row .col-12 {
+        width: 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+
+    /* Add margin top for the cards */
+    .mt-1-9 {
+        margin-top: 1.9rem;
+    }
+
+    .mt-n1-9 {
+        margin-top: -1.9rem;
+    }
+
+    .image-hide {
+        display: none;
+    }
+
+    .arrow-slider {
+        position: absolute;
+        bottom: -90px;
+
+        left: 55%;
+
+        transform: translateX(-59%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .arrow-slider img {
+        width: 40px;
+        /* Adjust image size as needed */
+        /* height: 40px; */
+        /* margin: 0 5px; */
+        /* Adjust spacing between images */
+    }
+
+    .footer-child {
+        position: absolute;
+        background: #0F8C48;
+        border-radius: 28px;
+        /* padding: 10px 20px; */
+        padding-bottom: 20px;
+        padding-left: 15px;
+        /* padding-top: 20px; */
+        width: 100%;
+        /* bottom: -43%; */
+        /* margin-top: 30px; */
+        /* margin-bottom: 30px; */
+        /* padding: co; */
+    }
+
+    .home .banner-section h1 {
+        font-size: 41px !important;
+        line-height: 3.75rem !important;
+        letter-spacing: -1.25px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.arrow-slider {
+    margin-top: 60px;
+}
+
+.trainer {
+    position: relative;
+    margin-top: -81px;
+    z-index: 999999999999;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+.trainer h3 {
+    color: #ffffff;
+}
+
+.blankDive {
+    width: 10px;
+    height: 28px;
+    display: block;
+}
+
+.footer-h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #EDF5F1 !important;
+
+}
+
+.footer-family {
+    /* width: 90%; */
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 27rem;
+
+}
+
+.footer-child {
+    position: absolute;
+    background: #0F8C48;
+    border-radius: 28px;
+    /* padding: 10px 20px; */
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 20px;
+    width: 100%;
+    bottom: 0
+        /* margin-top: 40px; */
+        /* margin-bottom: 30px; */
+}
+
+.footer-child h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.footer-child p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+.footer-list li a img {
+    vertical-align: sub;
+}
+
+.privacy-policy p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(140, 140, 140, 1);
+}
+
+.privacy-policys {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(140, 140, 140, 1);
+
+}
+
+.footer-playstore {
+    display: flex;
+
+}
+
+.foot-download {
+    width: 170px;
+    height: 49px;
+
+    margin-right: 30px;
+}
+
+/* corporate -training css */
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+
+.form-heading h4 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33px;
+    color: #171717;
+
+}
+
+.form-heading p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #8c8c8c;
+
+}
+
+.form-container {
+    width: 85%;
+    display: block;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    margin-left: 2rem;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mt-160 {
+    margin-top: 160px;
+}
+
+.mt-170 {
+    margin-top: 170px;
+}
+
+.mt-180 {
+    margin-top: 180px;
+}
+
+.mt-190 {
+    margin-top: 190px;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.car-fitness {
+    color: #ffffff !important;
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.car-hello {
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #fff !important;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.btn-apply {
+    position: relative;
+    z-index: 9999;
+    display: inline-block;
+    font-size: 16px !important;
+    line-height: normal;
+    padding: 12px 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    color: #0F0F0F;
+    background-color: #2FC373;
+    border: none;
+    z-index: 2;
+    overflow: hidden;
+    /* border-radius: 0; */
+    font-weight: 500;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.checkbox {
+    display: table;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px 14px 5px 14px;
+    border-radius: 58px;
+    border: 1px solid #747875;
+}
+
+.checkbox label {
+    margin-bottom: 0px;
+}
+
+.checkbox>input[type="checkbox"] {
+    opacity: 0;
+    width: 0;
+}
+
+::placeholder {
+    color: rgba(140, 140, 140, 1) !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+::-ms-input-placeholder {
+    /* Edge 12 -18 */
+    color: #000000 !important;
+}
+
+.sub-button {
+    width: auto;
+    border-radius: 10px;
+    padding: 12px 20px 12px 20px;
+    gap: 10px;
+    color: rgba(253, 254, 254, 1);
+    /* background: #ffffff; */
+
+}
+
+.request {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20pxx;
+    color: rgba(15, 15, 15, 1);
+}
+
+ul.level1 {
+    list-style-type: none;
+
+    padding: 0;
+    margin: 0;
+}
+
+
+li.item {
+    margin-bottom: 15px;
+
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    margin-right: 15px;
+
+}
+
+.item p {
+    margin-top: 15px;
+}
+
+.arrowN {
+    position: absolute;
+    right: 0;
+    bottom: -240px;
+}
+
+
+
+
+
+
+.no-bg {
+    background: transparent !important;
+}
+
+.team-media img {
+    width: 300px;
+    height: 358px;
+}
+
+.act h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.act p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.happy-clients {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 20px 10px;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+}
+
+.client img {
+    margin-right: 10px;
+
+}
+
+.client-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.client-info h3 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(47, 195, 115, 1);
+
+
+    /* Remove default margin */
+}
+
+.client-info p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(140, 140, 140, 1);
+    margin-bottom: 5px;
+
+}
+
+
+
+.image-row {
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+
+.client-info img {
+    width: 45.5px;
+    height: 35.5px;
+
+}
+
+
+
+.arrow-slider img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.arrow-slider img:first-child {
+    margin-right: 30px;
+
+}
+
+.car-why>div {
+    background: #191919;
+    padding: 30px 25px 30px 25px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-list li a img {
+    vertical-align: sub;
+}
+
+.privacy-policy p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(140, 140, 140, 1);
+
+}
+
+.privacy-policys {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(140, 140, 140, 1);
+
+}
+
+.footer-playstore {
+    display: flex;
+
+}
+
+.foot-download {
+    width: 170px;
+    height: 49px;
+
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+.add-media {
+    margin-top: 30px;
+}
+
+.pd-auto {
+    padding-top: 4rem;
+}
+
+
+
+
+
+
+.no-bg {
+    background: transparent !important;
+}
+
+.team-media img {
+    width: 300px;
+    height: 358px;
+}
+
+.act h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.act p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.happy-clients {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 20px 10px;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+}
+
+.client img {
+    margin-right: 10px;
+
+}
+
+.client-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.client-info h3 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(47, 195, 115, 1);
+
+
+    /* Remove default margin */
+}
+
+.client-info p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(140, 140, 140, 1);
+    margin-bottom: 5px;
+
+}
+
+
+
+.image-row {
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+
+.client-info img {
+    width: 45.5px;
+    height: 35.5px;
+
+}
+
+
+
+
+.image-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-column img {
+    margin-bottom: 10px;
+}
+
+.star-img {
+    width: 128px;
+    height: 18.89px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 22px;
+    /* line-height: 32px; */
+    color: rgba(140, 140, 140, 1);
+}
+
+.col-lg-5 span h2 {
+    margin-bottom: 150px;
+
+}
+
+.arrow-slider img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.arrow-slider img:first-child {
+    margin-right: 30px;
+
+}
+
+
+.car-why>div>h3 {
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.car-why>div {
+    background: #191919;
+    padding: 30px 25px 30px 25px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+/* for Checkbox */
+
+.specialists_active {
+    border-color: #2FC373 !important;
+
+}
+
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+.slide-track {
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    overflow: hidden;
+}
+
+p.comment-text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(140, 140, 140, 1);
+}
+
+.career .section-title p {
+    padding: 0 20rem;
+    font-size: 1rem;
+
+}
+
+.why-fytt-club {
+    font-size: 18px;
+}
+
+.poweryoga {
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+}
+
+.corporate-training-boby .cover-background {
+    background-image: url(../assets/wellness.jpg);
+    background-blend-mode: difference;
+}
+
+.corporate-training-boby .cover-background .container-fluid {
+    padding: 0;
+}
+
+.corporate-training-boby .section-title h2 {
+    line-height: 1.3;
+}
+
+.corporate-training-boby .banner-style01 .banner-section h1.grp-fitness {
+    font-size: 5rem;
+}
+
+.content p {
+    color: #FFF;
+    margin: 0;
+}
+
+#request-form {
+    background-image: radial-gradient(107.14% 167.73% at 115.24% 185.23%, #2FC373 12.98%, #062D1F 82.53%, #010A02 100%), url(../assets/noise-texture.png);
+}
+
+.demo .section-title span,
+.home .section-title span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: 2px;
+    color: rgba(140, 140, 140, 1);
+}
+
+.home .banner-style01 .banner-section h1 {
+    margin-top: 15px;
+}
+
+
+@media screen and (max-width: 991px) {
+    section {
+        padding: 30px 15px;
+    }
+
+    .slide-track {
+        width: 50rem;
+    }
+
+    .slider img {
+        /* width: 332px; */
+        /* height: 360px; */
+        animation: scroll 5s linear infinite;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translatex(-260%)
+        }
+    }
+
+    p.comment-text {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .client-info-img {
+        left: 0;
+        padding-left: 0;
+        top: -50px;
+    }
+
+    .client img {
+        width: 55px;
+    }
+
+    .client-info h3 {
+        font-size: 18px;
+    }
+
+    .client-info p {
+        font-size: 14px;
+    }
+
+    .banner-section {
+        padding: 1.5rem 0;
+    }
+
+    .car-hello {
+        margin-bottom: 0;
+    }
+
+    .banner-style01 .banner-section h1 {
+        line-height: 1.3 !important;
+    }
+
+
+    .banner-style01 .banner-section p {
+        margin-top: 0;
+        line-height: 1.3;
+    }
+
+    .quform-inputs,
+    .checkbox label {
+        font-size: 14px;
+    }
+
+    .btn-apply {
+        font-size: 14px !important;
+    }
+
+    .home .section-title text {
+        color: #FFF;
+    }
+
+    .about-style01 .section-title text {
+        color: #2FC373;
+    }
+
+    .section-title text {
+        color: #2FC373;
+    }
+
+    .section-title p {
+        padding: 0;
+    }
+
+    .career .par-container .mt-1-9 {
+        margin-top: 0;
+    }
+
+    .poweryoga {
+        margin-bottom: 3rem;
+    }
+
+    .car-why text {
+        color: #2FC373;
+    }
+
+    .career .section-title,
+    .career .section-title p {
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .career .par-container .mt-100 {
+        margin-top: 70px;
+    }
+
+
+
+    .choose-us text {
+        color: #2FC373;
+    }
+
+    .request {
+        font-size: 16px;
+    }
+
+    .min-vh-100 {
+        min-height: 60vh !important;
+    }
+
+    .corporate-training-boby .cover-background {
+        min-height: auto !important;
+    }
+
+    .why-fytt-club {
+        text-align: center;
+    }
+
+    .demo .section-title span,
+    .home .section-title span {
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .demo .par-container .mt-100 {
+        margin-top: 60px;
+    }
+
+    .demo .trust {
+        padding-bottom: 45px;
+    }
+
+    .demo footer.pt-10,
+    .py-10 {
+        padding-top: 2.5rem;
+    }
+
+    .trust {
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .attr-nav>ul>li>a.butn {
+        font-size: 12px !important;
+
+    }
+
+    .navbar-brand {
+        margin: 0;
+    }
+
+    .navbar-brand img {
+
+        height: 16px;
+
+    }
+}
+
+@media (min-width: 1024px) {
+    .navbar-expand-lg .navbar-nav {
+        display: block !important;
+    }
+
+    .career .section-title p {
+        margin-top: 20px;
+    }
+}
+
+input[type="number"],
+input[type="number"]:hover,
+input[type="number"]:focus,
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    -webkit-appearance: none;
+}
